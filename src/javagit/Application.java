@@ -26,7 +26,9 @@ public class Application extends Frame {
                     public void windowClosing(WindowEvent e) {
                         dispose();
                     }
-        });
+                });
+                
+                this.setLocationRelativeTo(null);
 	}
 
 }
