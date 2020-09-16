@@ -22,6 +22,7 @@ public class Application extends Frame {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+                this.setSize(120, 120);
                 this.addWindowListener(new WindowAdapter() {
                     public void windowClosing(WindowEvent e) {
                         dispose();
