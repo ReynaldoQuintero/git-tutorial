@@ -1,2 +1,7 @@
+nbproject/private/
 build/
-/.settings/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
